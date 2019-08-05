@@ -44,5 +44,5 @@ post = [
 
 def list_post(request):
     """List all post"""
-    return render(request, 'feed.html', {'posts': post})
+    return render(request, 'posts/feed.html', {'posts': post})
 
