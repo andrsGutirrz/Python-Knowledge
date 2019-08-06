@@ -2,9 +2,11 @@
     post views
 """
 
+from datetime import datetime
 from django.http import HttpResponse
 from django.shortcuts import render
-from datetime import datetime
+from django.contrib.auth.decorators import login_required
+
 
 post = [
     {'title': 'Mont Blanc',
@@ -42,6 +44,7 @@ post = [
 ]
 
 
+@login_required
 def list_post(request):
     """List all post"""
     return render(request, 'posts/feed.html', {'posts': post})
