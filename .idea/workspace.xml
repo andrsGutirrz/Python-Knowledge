@@ -2,15 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52b793bd-094f-47b7-9547-688a2ce26b6f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/platzi-django-course/platzigram/templates/users/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/platzi-django-course/platzigram/users/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzi-django-course/platzigram/platzigram/middleware.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzi-django-course/platzigram/posts/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzi-django-course/platzigram/templates/posts/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzi-django-course/platzigram/templates/users/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzi-django-course/platzigram/templates/users/update_profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platzi-django-course/platzigram/users/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platzi-django-course/platzigram/platzigram/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/platzi-django-course/platzigram/platzigram/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platzi-django-course/platzigram/platzigram/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/platzi-django-course/platzigram/platzigram/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platzi-django-course/platzigram/posts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/platzi-django-course/platzigram/posts/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platzi-django-course/platzigram/posts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/platzi-django-course/platzigram/posts/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platzi-django-course/platzigram/templates/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/platzi-django-course/platzigram/templates/nav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platzi-django-course/platzigram/templates/users/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/platzi-django-course/platzigram/templates/users/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platzi-django-course/platzigram/templates/posts/feed.html" beforeDir="false" afterPath="$PROJECT_DIR$/platzi-django-course/platzigram/templates/posts/feed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platzi-django-course/platzigram/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/platzi-django-course/platzigram/templates/users/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platzi-django-course/platzigram/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/platzi-django-course/platzigram/users/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platzi-django-course/platzigram/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/platzi-django-course/platzigram/users/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,66 +27,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platzi-django-course/platzigram/platzigram/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="138" selection-start-line="138" selection-end-line="138" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platzi-django-course/platzigram/platzigram/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-              <folding>
-                <element signature="e#634#666#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/platzi-django-course/platzigram/posts/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+            <state relative-caret-position="220">
+              <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platzi-django-course/platzigram/users/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platzi-django-course/platzigram/templates/users/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platzi-django-course/platzigram/users/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -90,38 +41,100 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/platzi-django-course/platzigram/posts/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
-              <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platzi-django-course/platzigram/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/platzi-django-course/platzigram/templates/nav.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+            <state relative-caret-position="416">
+              <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
               <folding>
-                <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
+                <element signature="e#23#29#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platzi-django-course/platzigram/templates/users/base.html">
+        <entry file="file://$PROJECT_DIR$/platzi-django-course/platzigram/templates/users/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+            <state relative-caret-position="672">
+              <caret line="28" column="86" selection-start-line="28" selection-start-column="86" selection-end-line="28" selection-end-column="86" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platzi-django-course/platzigram/users/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#29#88#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/platzi-django-course/platzigram/users/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="56" column="52" selection-start-line="56" selection-start-column="52" selection-end-line="56" selection-end-column="52" />
+              <folding>
+                <element signature="e#28#52#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platzi-django-course/platzigram/templates/posts/feed.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platzi-django-course/platzigram/posts/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+              <folding>
+                <element signature="e#28#52#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platzi-django-course/platzigram/templates/posts/new.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="835">
+              <caret line="52" column="14" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platzi-django-course/platzigram/templates/users/signup.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/platzi-django-course/platzigram/templates/nav.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -139,6 +152,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>models</find>
+      <find>mid</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -151,16 +165,23 @@
         <option value="$PROJECT_DIR$/platzi-django-course/platzigram/users/admin.py" />
         <option value="$PROJECT_DIR$/platzi-django-course/platzigram/posts/models.py" />
         <option value="$PROJECT_DIR$/platzi-django-course/platzigram/templates/base.html" />
-        <option value="$PROJECT_DIR$/platzi-django-course/platzigram/templates/posts/feed.html" />
         <option value="$PROJECT_DIR$/platzi-django-course/platzigram/platzigram/urls.py" />
         <option value="$PROJECT_DIR$/platzi-django-course/platzigram/templates/users/base.html" />
-        <option value="$PROJECT_DIR$/platzi-django-course/platzigram/posts/urls.py" />
-        <option value="$PROJECT_DIR$/platzi-django-course/platzigram/posts/views.py" />
-        <option value="$PROJECT_DIR$/platzi-django-course/platzigram/platzigram/settings.py" />
-        <option value="$PROJECT_DIR$/platzi-django-course/platzigram/templates/users/login.html" />
         <option value="$PROJECT_DIR$/platzi-django-course/platzigram/users/urls.py" />
-        <option value="$PROJECT_DIR$/platzi-django-course/platzigram/users/views.py" />
+        <option value="$PROJECT_DIR$/platzi-django-course/platzigram/platzigram/settings.py" />
+        <option value="$PROJECT_DIR$/platzi-django-course/platzigram/platzigram/middleware.py" />
+        <option value="$PROJECT_DIR$/platzi-django-course/platzigram/templates/users/update_profile.html" />
+        <option value="$PROJECT_DIR$/platzi-django-course/platzigram/posts/urls.py" />
+        <option value="$PROJECT_DIR$/platzi-django-course/platzigram/posts/PostForm.py" />
+        <option value="$PROJECT_DIR$/platzi-django-course/platzigram/templates/posts/new.html" />
         <option value="$PROJECT_DIR$/platzi-django-course/platzigram/templates/nav.html" />
+        <option value="$PROJECT_DIR$/platzi-django-course/platzigram/posts/views.py" />
+        <option value="$PROJECT_DIR$/platzi-django-course/platzigram/templates/posts/feed.html" />
+        <option value="$PROJECT_DIR$/platzi-django-course/platzigram/templates/users/login.html" />
+        <option value="$PROJECT_DIR$/platzi-django-course/platzigram/users/views.py" />
+        <option value="$PROJECT_DIR$/platzi-django-course/platzigram/posts/forms.py" />
+        <option value="$PROJECT_DIR$/platzi-django-course/platzigram/templates/users/signup.html" />
+        <option value="$PROJECT_DIR$/platzi-django-course/platzigram/users/forms.py" />
       </list>
     </option>
   </component>
@@ -175,6 +196,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -185,20 +207,19 @@
             <path>
               <item name="Python-Knowledge" type="b2602c69:ProjectViewProjectNode" />
               <item name="platzigram" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/platzi-django-course/platzigram/templates/posts" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -257,12 +278,12 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18440464" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18440464" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33152762" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33152762" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -280,8 +301,8 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33152762" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -345,13 +366,6 @@
     <entry file="file://$PROJECT_DIR$/platzi-django-course/platzigram/static/img/instagram.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/platzi-django-course/platzigram/templates/posts/feed.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/platzi-django-course/platzigram/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -366,9 +380,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/platzi-django-course/platzigram/platzigram/middleware.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+          <folding>
+            <element signature="e#47#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platzi-django-course/platzigram/platzigram/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="49" column="60" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platzi-django-course/platzigram/templates/users/update_profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1136">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platzi-django-course/platzigram/users/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/platzi-django-course/platzigram/platzigram/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
+        <state relative-caret-position="392">
           <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
           <folding>
             <element signature="e#634#666#0" expanded="true" />
@@ -378,61 +426,93 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/platzi-django-course/platzigram/posts/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        <state relative-caret-position="220">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platzi-django-course/platzigram/platzigram/settings.py">
+    <entry file="file://$PROJECT_DIR$/platzi-django-course/platzigram/templates/posts/new.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="138" selection-start-line="138" selection-end-line="138" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platzi-django-course/platzigram/templates/users/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platzi-django-course/platzigram/users/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platzi-django-course/platzigram/posts/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platzi-django-course/platzigram/users/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="835">
+          <caret line="52" column="14" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/platzi-django-course/platzigram/templates/nav.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+        <state relative-caret-position="315">
+          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platzi-django-course/platzigram/templates/posts/feed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platzi-django-course/platzigram/templates/users/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="28" column="86" selection-start-line="28" selection-start-column="86" selection-end-line="28" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platzi-django-course/platzigram/posts/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+          <folding>
+            <element signature="e#23#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platzi-django-course/platzigram/users/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#29#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platzi-django-course/platzigram/posts/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+          <folding>
+            <element signature="e#28#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platzi-django-course/platzigram/templates/users/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platzi-django-course/platzigram/users/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="56" column="52" selection-start-line="56" selection-start-column="52" selection-end-line="56" selection-end-column="52" />
+          <folding>
+            <element signature="e#28#52#0" expanded="true" />
           </folding>
         </state>
       </provider>
