@@ -17,10 +17,10 @@ def get_comment():
         comment = {
             'author_name': "Andres Gutierrez",
             'author_id': 6767,
-            'reviewer_name': 'Fuli E',
+            'reviewer_name': 'JoJo',
             'reviewer_id': 5555,
-            'internal_only': 'internal only section',
-            'summary': 'summary section',
+            'internal_only': 'aaaa',
+            'summary': 'bbbb',
         }
 
         return json.dumps(comment)
