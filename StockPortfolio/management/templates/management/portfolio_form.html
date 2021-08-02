@@ -1,0 +1,22 @@
+{% extends "management/index.html" %}
+<h1>Portfolio Form</h1>
+
+
+
+  {% block content %}
+  <div class="toForm">
+    <form  method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input  type="submit"  value="Submit"  />
+    </form>
+  </div>
+
+  {% endblock %}
+
+  {% block js%}
+  {% endblock%}
+
+
+  {% block result %}
+  {% endblock %}

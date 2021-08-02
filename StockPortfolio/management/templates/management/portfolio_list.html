@@ -1,0 +1,38 @@
+<!-- index.html template -->
+{% extends "management/index.html" %}
+
+{% block title %}
+<h1>{{webTitle}}</h1>
+{% endblock %}
+
+{% block content %}
+<h1>Portfolios</h1>
+
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th  scope="col" >Name</th>
+      <th  scope="col" >Creation</th>
+      <th  scope="col" >Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for portfolio in object_list %}
+    <tr>
+      <td>{{ portfolio.name }}</td>
+      <td>{{ portfolio.creation }}</td>
+      <td>
+        <a href="/management/watch/{{portfolio.id}}"><span class="glyphicon glyphicon-ok-circle"></span>Watch</a>
+      </td>
+    </tr>
+
+    {% endfor %}
+    <a href="{% url "portfolio_create" %}">Create</a>
+  </tbody>
+</table>
+
+{% endblock %}
+
+{% block result %}
+
+{% endblock %}
