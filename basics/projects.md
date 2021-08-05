@@ -25,4 +25,27 @@ Create a console application with parse args, see planets example
 
 ## 4. Netflix searcher | API  
 1. Using the same logic created before, create an API service  
-2. Create an endpoint for inserting new movies   
+2. Create an endpoint for inserting new movies
+
+## 5. Decorator
+1. Create a decorator for caching SQL result sets, so we avoid creating connections to DB  
+Expected output
+   
+```shell
+ OUTPUT
+ first time query
+ Person not in cached, SQL Connection required
+ Person saved into cached, for next queries
+ Person(id=2, name='Andres', age=25)
+ second time query
+ Getting person from cached, avoided SQL Connection
+ Person(id=2, name='Andres', age=25)
+```
+
+## 6. API IN GCP
+1. Create a basic Flask Application  
+   1.1 GET  
+   1.2 POST  
+   1.3 PATCH  
+   1.4 DELETE  
+2. Make a deploy in GCP with APP Engine Service  

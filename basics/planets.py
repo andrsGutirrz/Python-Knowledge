@@ -4,7 +4,7 @@ from enum import Enum
 from typing import List, Optional
 
 
-class Planets(Enum):
+class Planets(Enum): # Can be done using a dict
     MERCURY = 3.7
     VENUS = 8.87
     EARTH = 9.8
@@ -29,6 +29,7 @@ def list_planets() -> List[Planets]:
 def parse_params(args=None):
     parser = argparse.ArgumentParser(description='Your weight on Others Worlds')
     parser.add_argument('--weight', '-w', type=float, required=True, help='Weight')
+    parser.add_argument('--title', '-t', type=float, required=True, help='Weight')
     parser.add_argument('--planet', '-p', type=str, required=True, help='planet'
                         , choices=[p.name for p in list_planets()])
     if not args:

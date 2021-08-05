@@ -1,0 +1,2 @@
+08/03/2021, 16:00:57. Your weight: 70.0 in MOON with gravity 1.6 is 11.428571428571429.
+08/03/2021, 16:01:27. Your weight: 65.0 in MOON with gravity 1.6 is 10.612244897959183.

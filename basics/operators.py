@@ -1,7 +1,7 @@
 # Logic Operators
-# and
-# or
-# not
+# and &&
+# or ||
+# not !
 
 # Arithmetic Operators
 # +  addition
@@ -15,8 +15,8 @@
 if __name__ == '__main__':
     # Logic Operators
     # and
-    b = True and True
-    bb = 1 < 10 and 5>1
+    b = True and False
+    bb = 1 <= 10 and 5>=1
     # or
     # not
 

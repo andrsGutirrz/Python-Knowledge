@@ -21,12 +21,19 @@ def read_file(filename: str):
 
 
 # write
-def write_file(filename: str):
+def write_file(filename: str): # log
     with open(filename, "a") as file:
         file.write("hello world\n")
 
+def search_in_list(keyword, collection: list):
+    pass
 
 if __name__ == '__main__':
     filename: str = "my_file.txt"
-    write_file(filename)
+    for i in range(10):
+        write_file(filename)
     read_file(filename)
+
+    # buscar en lista, algun parametro
+    search_in_list("andres", ["Juan", "Claudia", "Flor", 1, 2, True, False])
+
