@@ -1,0 +1,93 @@
+{
+	"items": [
+		{
+			"make": "acer",
+			"model": "aspire",
+			"screen_size": "17",
+			"memory": [
+				{
+					"size": 8
+				},
+				{
+					"size": 16
+				},
+				{
+					"size": 32
+				}
+			],
+			"processor": [
+				{
+					"make": "intel",
+					"model": "i5-10",
+					"core": "4",
+					"frecuency": "3.6"
+				},
+				{
+					"make": "intel",
+					"model": "i3-10",
+					"core": "2",
+					"frecuency": "2.8"
+				}
+			]
+		},
+		{
+			"make": "acer",
+			"model": "Nitro",
+			"screen_size": "15.6",
+			"memory": [
+				{
+					"size": 16
+				},
+				{
+					"size": 32
+				}
+			],
+			"processor": [
+				{
+					"make": "intel",
+					"model": "i5-10",
+					"core": "4",
+					"frecuency": "3.6"
+				},
+				{
+					"make": "ryzen",
+					"model": "5",
+					"core": "4",
+					"frecuency": "4.3"
+				}
+			]
+		},
+		{
+			"make": "hp",
+			"model": "hp",
+			"screen_size": "15.6",
+			"memory": [
+				{
+					"size": 8
+				},
+				{
+					"size": 16
+				},
+				{
+					"size": 32
+				}
+			],
+			"processor": [
+				{
+					"make": "ryzen",
+					"model": "5",
+					"core": "4",
+					"frecuency": "3.6"
+				},
+				{
+					"make": "ryzen",
+					"model": "3",
+					"core": "2",
+					"frecuency": "3"
+				}
+			]
+		}
+	],
+	"messageId": 1,
+	"timestamp": 1632072335
+}
