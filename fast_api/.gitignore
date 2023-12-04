@@ -1,0 +1,70 @@
+# Virtual Environment
+venv/
+venv*/
+__pycache__/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Python cache
+*.pyc
+
+# Ignore environment-specific files
+.env
+
+# Ignore log files and databases
+*.log
+*.sqlite
+*.db
+
+# Ignore coverage reports
+htmlcov/
+
+# Ignore local development settings
+local_settings.py
+
+# Ignore artifacts and build directories
+dist/
+build/
+*.egg-info/
+
+# Ignore pipenv virtual environment
+Pipfile
+Pipfile.lock
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Docker-related files
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Ignore compiled bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore pytest cache
+__pycache__/
+.cache/
+
+# Ignore mypy cache
+.mypy_cache/
+
+# Ignore PyCharm files
+.idea/
+
+# Ignore Visual Studio Code files
+.vscode/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
