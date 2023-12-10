@@ -10,8 +10,14 @@ python = "^3.10"
 fastapi = "^0.104.1"
 uvicorn = "^0.24.0.post1"
 pyjwt = "^2.8.0"
+pre-commit = "^3.6.0"
 
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+
+[tool.black]
+line-length = 88
+target-version = ['py311']
