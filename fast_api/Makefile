@@ -6,4 +6,4 @@ build:
 	docker build -f dockerfile -t $(IMAGE_NAME) .
 
 run:
-	docker run -p 8000:80 $(IMAGE_NAME)
+	docker run -p 8080:8080 $(IMAGE_NAME)
